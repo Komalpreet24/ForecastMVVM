@@ -65,7 +65,6 @@ class CurrentWeatherFragment : ScopedFragment(),KodeinAware {
             updateVisibility(it.visibilityDistance)
 
             GlideApp.with(this@CurrentWeatherFragment)
-//                .load("https://assets.weatherstack.com//images//wsymbols01_png_64//wsymbol_0004_black_low_cloud.png")
                 .load(R.drawable.ic_weather_sunny)
                 .into(imageView_condition_icon)
 
